@@ -7,6 +7,9 @@ import android.graphics.Paint;
  * Created by liqi7 on 2017/5/27.
  */
 
+/**
+ * 雨滴的类, 移动, 移出屏幕会重新设置位置.
+ */
 public class RainFlake {
     // 雨滴的移动速度
     private static final float INCREMENT_LOWER = 6f;
